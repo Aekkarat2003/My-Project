@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+nav{
+    background-color: rgb(204, 204, 204);
+    font-size: 15px;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Logo Styles */
+  .navbar-brand img {
+    width: 30px; /* ขนาดของโลโก้ */
+    height: 30px;
+    margin-right: 8px; /* ระยะห่างระหว่างโลโก้กับ "UDVC" */
+  }
+  
+  /* "UDVC" Styles */
+  .navbar-brand h2 {
+    margin: 0; /* ลบ margin ของ "UDVC" */
+    font-size: 1.5rem; /* ขนาดตัวอักษรของ "UDVC" */
+  }
+  
+@media (max-width: 991px){
+    .sidebar{
+        background-color: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+    }
+}

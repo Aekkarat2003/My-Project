@@ -1,0 +1,38 @@
+.body {
+    background-color: #e8e7e7; /* สีพื้นหลังของหน้าเว็บ */
+}
+
+.content-container {
+    background-color: #ffffff;
+    width: 1000px;
+    height: 2000px;
+    border: 1px solid #ccc; /* สีเส้นขอบ */
+    /* padding: 20px; พื้นที่ว่างข้างในคอนเทนเนอร์ */
+    /* margin-top: 3px; ระยะห่างด้านบน */
+    border-radius: 10px; /* รัศมีขอบสำหรับมุมโค้ง */
+    margin-left: auto; /* ย้ายไปชิดขวา */
+    margin-right: auto; /* ย้ายไปชิดซ้าย (ในกรณีที่มี sidebar) */
+    max-width: 980px; /* กำหนดความกว้างสูงสุด */
+}
+
+.orange-bar {
+    background-color: #FFA500; /* สีส้ม */
+    height: 60px; /* สูงของแถบสีส้ม */
+    width: 980px;
+    padding: 17px 10px 10px 20px;
+    margin-left: -12px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgb(0 0 0 / 5%);
+}
+
+.am {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+@media (min-width: 991.98px) {
+    .content-container {
+        margin-left: auto; /* Move the container to the right */
+        margin-right: 20px; /* Add some right margin for spacing */
+    }
+}
