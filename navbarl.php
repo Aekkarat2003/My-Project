@@ -27,7 +27,7 @@ if (isset($_SESSION['admin_login'])) {
           <i class="fa-solid fa-user-pen me-3"></i><span>จัดการข้อมูลผู้ใช้</span>
         </a>
         <a 
-          href="edit_techer.php" 
+          href="edit_teacher.php" 
           class="list-group-item list-group-item-action py-2 ripple <?php echo ($currentPage == 'manage_teacher') ? 'active' : ''; ?>">
           <i class="fa-solid fa-chalkboard-user me-3"></i><span>จัดการข้อมูลครู</span>
         </a>

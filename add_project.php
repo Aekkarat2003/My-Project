@@ -101,7 +101,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         window.location.href = "add_project.php";
                     });
                 } else {
-                    console.log("Eerror", response);
+                    console.log("Error", response);
                     Swal.fire("Error!", response.msg, response.status);
                 }
             },

@@ -38,6 +38,7 @@
                     <th scope="col">ครูที่ปรึกษา</th>
                     <th scope="col">สาขา</th>
                     <th scope="col">ปีพ.ศ.</th>
+                    <th scope="col">ดาวน์โหลด</th>
                 </tr>
             </thead>
             <tbody>
@@ -49,6 +50,7 @@
                         <td><?php echo $project['project_advisor']; ?></td>
                         <td><?php echo $project['project_branch']; ?></td>
                         <td><?php echo $project['project_year']; ?></td>
+                        <td><a href="download_project.php?project_id=<?php echo $project['project_id']; ?>" target="_blank">ดาวน์โหลด</a></td>
                     </tr>
                 <?php endforeach; ?>
             </tbody>

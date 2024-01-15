@@ -42,7 +42,7 @@
                         <td><?php echo $user['username']; ?></td>
                         <td><?php echo $user['Status']; ?></td>
                         <td>
-                        <a href="ed_user.php?id=<?php echo $user['id']; ?>" class="">
+                        <a href="update_user.php?id=<?php echo $user['id']; ?>" class="">
                             <i class="fa-solid fa-pen-to-square me-3"></i>
                         </a>
                             <i class="fa-solid fa-trash" onclick="deleteUser(<?php echo $user['id']; ?>, this.parentNode.parentNode)"></i>
@@ -51,7 +51,12 @@
                 <?php endforeach; ?>
             </tbody>
         </table>
+        <div class="mt-3">
+    <a href="add_user.php" class="btn btn-primary">เพิ่มผู้ใช้</a>
 </div>
+
+</div>
+
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script>
         // Function สำหรับลบผู้ใช้และแสดง SweetAlert2
